@@ -6,7 +6,7 @@ function NavbarD() {
   return (
     <div>      
       <MediaQuery minWidth={1025}>
-        <nav className='navbar navbar-expand-lg fixed-top'>
+        <nav className='navbar navbar-expand-lg fixed-top nav-foot-color'>
           <div className='container-fluid'>
             <a className='navbar-brand nav_header mt-3 ms-5' href='/'>In The Mood of Winter |<p className='nav_date'> December 21st </p> </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,7 +32,7 @@ function NavbarD() {
         </nav>
       </MediaQuery>
       <MediaQuery maxWidth={1024}>
-        <nav class="navbar stickey-top">
+        <nav class="navbar stickey-top nav-foot-color">
           <div class="container-fluid">
             <a class="navbar-brand nav_header_m ms-3" href="/">In the Mood of Winter</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">

@@ -13,7 +13,7 @@ function Footer() {
                     <h5 className='mt-3 credit-head'>จัดโดย</h5>
                     <div className='credit mt-3'>องค์การบริหารองค์การนิสิต มหาวิทยาลัยเกษตรศาสตร์ บางเขน 2565 </div>
                     <h5 className='mb-3 mt-3 credit-head'>KUSAB Social</h5>
-                    <div className='social mt-4'>
+                    <div className='social mt-4 mb-3'>
                         <a href='https://web.facebook.com/kusab.bk' target="_blank" rel="noopener noreferrer">
                             <img className='fb-logo me-2' src={fb} alt='facebook'/>
                         </a>
@@ -32,7 +32,7 @@ function Footer() {
                 <h5 className='credit-head'>จัดโดย</h5>
                 <div className='credit mt-3'>องค์การบริหารองค์การนิสิต <br/> มหาวิทยาลัยเกษตรศาสตร์ บางเขน <br/> 2565 </div>
                 <h5 className='mb-3 mt-4'>KUSAB Social</h5>
-                <div className='social mt-2 credit-head'>
+                <div className='social mt-2 mb-3 credit-head'>
                     <a href='https://web.facebook.com/kusab.bk' target="_blank" rel="noopener noreferrer">
                         <img className='fb-logo me-2' src={fb} alt='facebook'/>
                     </a>

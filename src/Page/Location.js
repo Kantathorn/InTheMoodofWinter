@@ -3,7 +3,9 @@ import './Location.css'
 
 function Location() {
   return (
-    <div className='Location-h' id='Location'>Event Location</div>
+    <div className='Location' id='Location'>
+      <div className='Location-h'>Event Location - สถานที่จัดงาน</div>
+    </div>
   )
 }
 

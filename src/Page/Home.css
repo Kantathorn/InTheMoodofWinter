@@ -1,6 +1,9 @@
+.countdown{
+    background-color: #FBF3E4;
+}
 /* Timer */
 .Countdown-h{
-    margin-top: 15rem;
+    padding-top: 15rem;
     margin-bottom: 2rem;
     font-size: 8rem;
     font-family: 'Dancing Script', cursive;
@@ -23,5 +26,4 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 12rem;
 }
