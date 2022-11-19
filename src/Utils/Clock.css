@@ -1,0 +1,68 @@
+.clock{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.clock-m{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.clock-day{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock-hour{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock-minute{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.clock-second{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.time-unit{
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+}
+
+.time-unit-m{
+    font-family: 'Dancing Script', cursive;
+    font-size: 1rem;
+}
+
+.time-count{
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    font-size: 2.5rem;
+    padding-top: 0.4rem;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.time-count-m{
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+    font-family: 'Bebas Neue', cursive;
+}
