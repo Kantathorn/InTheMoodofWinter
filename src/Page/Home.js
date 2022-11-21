@@ -1,7 +1,6 @@
 import React from 'react'
 import MediaQuery from 'react-responsive'
 import Timer from '../Component/Timer'
-import Location from './Location'
 import transition1 from '../Image/transition-1.svg'
 
 import './Home.css'
@@ -20,7 +19,6 @@ function Home() {
           </div>
         </div>
         <img src={transition1} alt='transition btw cd and lc' width='100%'/>
-        <Location/>
       </MediaQuery>
       <MediaQuery maxWidth={1024}>
         <div className='countdown'>

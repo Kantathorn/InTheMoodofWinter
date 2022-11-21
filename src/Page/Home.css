@@ -13,8 +13,8 @@
 }
 /* Timer */
 .Countdown-h-m{
-    margin-top: 5rem;
-    margin-bottom: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
     font-size: 2.5rem;
     font-family: 'Dancing Script', cursive;
     display: flex;
@@ -26,4 +26,5 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 6rem;
 }
